@@ -14,10 +14,7 @@ interface QueueEntry {
   team_code: string | null;
 }
 
-const roomLabel: Record<string, string> = {
-  EVALUATION_1: 'Evaluation Room 1',
-  EVALUATION_2: 'Evaluation Room 2',
-};
+
 
 export const QueueManagerPage: React.FC = () => {
   const { apiFetch } = useApi();
